@@ -26,7 +26,7 @@ public class Sphere {
         return 4.0 * Math.PI * Math.pow(radius, 2);
     }
 
-    public double volume() {
+    public double volume()get {
         return (4.0/3.0) * Math.PI * Math.pow(radius, 3);
     }
 

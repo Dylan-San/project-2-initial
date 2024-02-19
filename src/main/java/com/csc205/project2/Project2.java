@@ -17,10 +17,10 @@ public class Project2 {
         The following code works with the example design given.
          */
 
-        ThreeDimensionalShape sphere = new Sphere(2.0);
-        ThreeDimensionalShape cube = new Cube(5.0);
-        ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
-        ThreeDimensionalShape pyramid = new Pyramid(4.0, 5.0);
+        ThreeDimensionalShape sphere = (ThreeDimensionalShape) new Sphere(2.0);
+        ThreeDimensionalShape cube = (ThreeDimensionalShape) new Cube(5.0);
+        ThreeDimensionalShape cylinder = (ThreeDimensionalShape) new Cylinder(4.0, 1.0);
+        ThreeDimensionalShape pyramid = (ThreeDimensionalShape) new Pyramid(4.0, 5.0);
 
         // We'll cover this stuff in module 4
         List<ThreeDimensionalShape> shapes = new ArrayList<>();

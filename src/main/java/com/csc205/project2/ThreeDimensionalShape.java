@@ -2,8 +2,8 @@ package com.csc205.project2;
 
 public interface ThreeDimensionalShape {
 
-    void surfaceArea(double index);
+    double calculateSurfaceArea(double surfaceArea);
+    double calculateVolume(double volume);
 
-    void volume(double index);
 
 }

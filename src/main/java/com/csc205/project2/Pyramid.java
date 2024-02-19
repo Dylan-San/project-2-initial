@@ -1,12 +1,12 @@
 package com.csc205.project2;
 
-public class Pyramid {
+public class Pyramid implements ThreeDimensionalShape {
 
 
         private double height;
         private double edge;
 
-        public Pyramid() {
+        public Pyramid(double v, double v1) {
             super();
             this.height = 0.0;
             this.edge = 0.0;
@@ -49,6 +49,16 @@ public class Pyramid {
         sb.append(", edge=").append(edge);
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void surfaceArea(double index) {
+
+    }
+
+    @Override
+    public void volume(double index) {
+
     }
 }
 

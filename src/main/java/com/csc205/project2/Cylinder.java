@@ -1,11 +1,11 @@
 package com.csc205.project2;
 
-public class Cylinder {
+public class Cylinder implements ThreeDimensionalShape {
 
     private double height;
     private double radius;
 
-    public Cylinder() {
+    public Cylinder(double v, double v1) {
         super();
         this.height = 0.0;
         this.radius = 0.0;
@@ -48,5 +48,15 @@ public class Cylinder {
         sb.append(", radius=").append(radius);
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void surfaceArea(double index) {
+
+    }
+
+    @Override
+    public void volume(double index) {
+
     }
 }

@@ -29,22 +29,22 @@ public class Project2 {
         shapes.add(cylinder);
         shapes.add(pyramid);
 
-        shapes.forEach(System.out::println);*/
+        shapes.forEach(System.out::println);
 
         /*
         The following code works with the code given.
          */
 
-        Sphere sphere = new Sphere(2.0);
+        Sphere sphere1 = new Sphere(4.0);
         System.out.println(sphere);
 
-        Cube cube = new Cube(5.0);
+        Cube cube1 = new Cube(6.0);
         System.out.println(cube);
 
-        Cylinder cylinder = new Cylinder(4.0, 1.0);
+        Cylinder cylinder1 = new Cylinder(4.0, 1.0);
         System.out.println(cylinder);
 
-        Pyramid pyramid = new Pyramid(4.0);
+        Pyramid pyramid1 = new Pyramid(4.0, 4.0);
         System.out.println(pyramid);
     }
 

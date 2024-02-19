@@ -1,6 +1,6 @@
 package com.csc205.project2;
 
-public class Sphere {
+public class Sphere implements ThreeDimensionalShape {
 
     private double radius;
 
@@ -38,5 +38,15 @@ public class Sphere {
         sb.append(", volume=").append(volume());
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void surfaceArea(double index) {
+
+    }
+
+    @Override
+    public void volume(double index) {
+
     }
 }

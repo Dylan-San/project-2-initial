@@ -1,6 +1,6 @@
 package com.csc205.project2;
 
-public class Cube {
+public class Cube implements ThreeDimensionalShape {
 
     private double width;
 
@@ -36,5 +36,15 @@ public class Cube {
         sb.append("width=").append(width);
         sb.append('}');
         return sb.toString();
+    }
+
+    @Override
+    public void surfaceArea(double index) {
+
+    }
+
+    @Override
+    public void volume(double index) {
+
     }
 }

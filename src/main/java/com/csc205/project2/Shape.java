@@ -12,4 +12,8 @@ public abstract class Shape implements ThreeDimensionalShape{
     public double getVolume() {
         return volume;
     }
+
+    public abstract double calculateSurfaceArea(double surfaceArea);
+
+    public abstract double calculateVolume(double volume);
 }

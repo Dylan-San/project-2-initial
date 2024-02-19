@@ -46,6 +46,8 @@ public class Cylinder implements ThreeDimensionalShape {
         final StringBuilder sb = new StringBuilder("Cylinder{");
         sb.append("height=").append(height);
         sb.append(", radius=").append(radius);
+        sb.append(", surface area=").append(surfaceArea());
+        sb.append(", volume=").append(volume());
         sb.append('}');
         return sb.toString();
     }

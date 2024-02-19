@@ -36,16 +36,20 @@ public class Project2 {
          */
 
         Sphere sphere1 = new Sphere(4.0);
-        System.out.println(sphere);
+        System.out.println(sphere1);
+        System.out.println();
+
 
         Cube cube1 = new Cube(6.0);
-        System.out.println(cube);
+        System.out.println(cube1);
+        System.out.println();
 
         Cylinder cylinder1 = new Cylinder(4.0, 1.0);
-        System.out.println(cylinder);
+        System.out.println(cylinder1);
+        System.out.println();
 
         Pyramid pyramid1 = new Pyramid(4.0, 4.0);
-        System.out.println(pyramid);
+        System.out.println(pyramid1);
     }
 
 }

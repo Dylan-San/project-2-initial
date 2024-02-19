@@ -47,6 +47,8 @@ public class Pyramid implements ThreeDimensionalShape {
         final StringBuilder sb = new StringBuilder("Pyramid{");
         sb.append("height=").append(height);
         sb.append(", edge=").append(edge);
+        sb.append(", surface area=").append(surfaceArea());
+        sb.append(", volume=").append(volume());
         sb.append('}');
         return sb.toString();
     }

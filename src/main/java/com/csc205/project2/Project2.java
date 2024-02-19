@@ -20,7 +20,7 @@ public class Project2 {
         ThreeDimensionalShape sphere = new Sphere(2.0);
         ThreeDimensionalShape cube = new Cube(5.0);
         ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
-        ThreeDimensionalShape pyramid = new Pyramid(4.0);
+        ThreeDimensionalShape pyramid = new Pyramid(4.0, 5.0);
 
         // We'll cover this stuff in module 4
         List<ThreeDimensionalShape> shapes = new ArrayList<>();
@@ -35,6 +35,7 @@ public class Project2 {
         The following code works with the code given.
          */
 
+        System.out.println();
         Sphere sphere1 = new Sphere(4.0);
         System.out.println(sphere1);
         System.out.println();
@@ -44,11 +45,11 @@ public class Project2 {
         System.out.println(cube1);
         System.out.println();
 
-        Cylinder cylinder1 = new Cylinder(4.0, 1.0);
+        Cylinder cylinder1 = new Cylinder(6.0, 2.0);
         System.out.println(cylinder1);
         System.out.println();
 
-        Pyramid pyramid1 = new Pyramid(4.0, 4.0);
+        Pyramid pyramid1 = new Pyramid(5.0, 3.0);
         System.out.println(pyramid1);
     }
 

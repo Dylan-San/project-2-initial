@@ -5,21 +5,19 @@ public class Cylinder implements ThreeDimensionalShape {
     private double height;
     private double radius;
 
-    public Cylinder(double v, double v1) {
+    public Cylinder() {
         super();
         this.height = 0.0;
         this.radius = 0.0;
     }
 
-    public Cylinder(double y){
+    public Cylinder(double height, double radius){
         super();
-        this.height = y;
-        this.radius = y;
+        this.height = height;
+        this.radius = radius;
     }
 
-    public double getRadius(){
-        return radius;
-    }
+    public double getRadius(){return radius; }
 
     public double getHeight(){
         return height;

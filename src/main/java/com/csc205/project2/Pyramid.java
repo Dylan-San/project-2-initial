@@ -6,16 +6,16 @@ public class Pyramid implements ThreeDimensionalShape {
         private double height;
         private double edge;
 
-        public Pyramid(double v, double v1) {
+        public Pyramid() {
             super();
             this.height = 0.0;
             this.edge = 0.0;
         }
 
-        public Pyramid(double z){
+        public Pyramid(double height, double edge) {
             super();
-            this.height = z;
-            this.edge = z;
+            this.height = height;
+            this.edge = edge;
         }
 
         public double getEdge(){
